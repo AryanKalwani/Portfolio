@@ -1,0 +1,44 @@
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.heading {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+nav {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+a {
+  font-family: 'ff-meta-serif-web-pro', 'Georgia', 'serif';
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+a:visited {
+  background-color: darkviolet;
+}
+
+a:hover {
+  background-color: rgba(65, 236, 222, 0.678);
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: darkturquoise;
+  text-decoration: underline;
+}
