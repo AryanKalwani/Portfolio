@@ -5,8 +5,10 @@ const First = () => {
   return (
     <div>
       <section className="first">
-        <div className="styled parallax">
-          <h1>Aryan Kalwani</h1>
+        <div className="Backdrop">
+          <div className="styled parallax">
+            <h1>Aryan Kalwani</h1>
+          </div>
         </div>
       </section>
     </div>
